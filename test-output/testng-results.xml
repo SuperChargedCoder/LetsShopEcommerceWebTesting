@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-28T22:56:49 IST" name="LetShopTestCases" finished-at="2025-07-28T22:57:29 IST" duration-ms="40866">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" name="submitOrder" class="org.LetsShop.test.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.LoginErrorValidation()[pri:0, instance:org.LetsShop.test.ErrorValidationTest@31304f14]" name="LoginErrorValidation" class="org.LetsShop.test.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2025-07-28T22:56:49 IST" name="ErrorValidationTest" finished-at="2025-07-28T22:57:01 IST" duration-ms="12890">
+      <class name="org.LetsShop.test.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.LetsShop.test.ErrorValidationTest@31304f14]" started-at="2025-07-28T22:56:49 IST" name="launchApplication" finished-at="2025-07-28T22:56:55 IST" duration-ms="6740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="LoginErrorValidation()[pri:0, instance:org.LetsShop.test.ErrorValidationTest@31304f14]" started-at="2025-07-28T22:56:55 IST" name="LoginErrorValidation" finished-at="2025-07-28T22:56:56 IST" duration-ms="461" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or* password]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or* password]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at org.LetsShop.test.ErrorValidationTest.LoginErrorValidation(ErrorValidationTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.LetsShop.test.ErrorValidationTest@31304f14]" started-at="2025-07-28T22:56:56 IST" name="tearDown" finished-at="2025-07-28T22:56:56 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.LetsShop.test.ErrorValidationTest@31304f14]" started-at="2025-07-28T22:56:56 IST" name="launchApplication" finished-at="2025-07-28T22:57:00 IST" duration-ms="4348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:org.LetsShop.test.ErrorValidationTest@31304f14]" started-at="2025-07-28T22:57:00 IST" name="LoginErrorValidation" finished-at="2025-07-28T22:57:01 IST" duration-ms="952" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or* password]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or* password]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at org.LetsShop.test.ErrorValidationTest.LoginErrorValidation(ErrorValidationTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.LetsShop.test.ErrorValidationTest@31304f14]" started-at="2025-07-28T22:57:01 IST" name="tearDown" finished-at="2025-07-28T22:57:01 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.LetsShop.test.ErrorValidationTest -->
+    </test> <!-- ErrorValidationTest -->
+    <test started-at="2025-07-28T22:57:01 IST" name="SubmitOrderTest" finished-at="2025-07-28T22:57:29 IST" duration-ms="27940">
+      <class name="org.LetsShop.test.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:02 IST" name="launchApplication" finished-at="2025-07-28T22:57:05 IST" duration-ms="3334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:05 IST" name="submitOrder" data-provider="getData" finished-at="2025-07-28T22:57:08 IST" duration-ms="2946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:08 IST" name="tearDown" finished-at="2025-07-28T22:57:08 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:08 IST" name="launchApplication" finished-at="2025-07-28T22:57:12 IST" duration-ms="3833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:12 IST" name="submitOrder" data-provider="getData" finished-at="2025-07-28T22:57:15 IST" duration-ms="3030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:15 IST" name="tearDown" finished-at="2025-07-28T22:57:16 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:16 IST" name="launchApplication" finished-at="2025-07-28T22:57:21 IST" duration-ms="5358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:21 IST" name="OrderHistoryTest" data-provider="getData" finished-at="2025-07-28T22:57:24 IST" depends-on-methods="org.LetsShop.test.SubmitOrderTest.submitOrder" duration-ms="3373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:24 IST" name="tearDown" finished-at="2025-07-28T22:57:24 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:24 IST" name="launchApplication" finished-at="2025-07-28T22:57:28 IST" duration-ms="4114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:28 IST" name="OrderHistoryTest" data-provider="getData" finished-at="2025-07-28T22:57:29 IST" depends-on-methods="org.LetsShop.test.SubmitOrderTest.submitOrder" duration-ms="785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.LetsShop.test.SubmitOrderTest@4e08711f]" started-at="2025-07-28T22:57:29 IST" name="tearDown" finished-at="2025-07-28T22:57:29 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.LetsShop.test.SubmitOrderTest -->
+    </test> <!-- SubmitOrderTest -->
+  </suite> <!-- LetShopTestCases -->
+</testng-results>

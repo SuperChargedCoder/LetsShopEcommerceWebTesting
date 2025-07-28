@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-LetShopTestCases" class="navigator-link">
+              <span class="suite-name border-failed">LetShopTestCases</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-LetShopTestCases" class="navigator-link ">
+                    <span>D:\All Desktop folders\Selenium Revision\Shubham Selenium Codes\LetsShopFramework\TestRunner\ErrorHandler.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-LetShopTestCases" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-LetShopTestCases" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-LetShopTestCases" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-LetShopTestCases" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-LetShopTestCases" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-LetShopTestCases" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,  1 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LetShopTestCases" class="hide-methods failed suite-LetShopTestCases"> (hide)</a> <!-- hide-methods failed suite-LetShopTestCases -->
+                      <a href="#" panel-name="suite-LetShopTestCases" class="show-methods failed suite-LetShopTestCases"> (show)</a> <!-- show-methods failed suite-LetShopTestCases -->
+                    </span>
+                    <div class="method-list-content failed suite-LetShopTestCases">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LetShopTestCases" title="org.LetsShop.test.ErrorValidationTest" class="method navigator-link" hash-for-method="LoginErrorValidation">LoginErrorValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LetShopTestCases -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-LetShopTestCases" class="hide-methods skipped suite-LetShopTestCases"> (hide)</a> <!-- hide-methods skipped suite-LetShopTestCases -->
+                      <a href="#" panel-name="suite-LetShopTestCases" class="show-methods skipped suite-LetShopTestCases"> (show)</a> <!-- show-methods skipped suite-LetShopTestCases -->
+                    </span>
+                    <div class="method-list-content skipped suite-LetShopTestCases">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-LetShopTestCases" title="org.LetsShop.test.ErrorValidationTest" class="method navigator-link" hash-for-method="LoginErrorValidation">LoginErrorValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-LetShopTestCases -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LetShopTestCases" class="hide-methods passed suite-LetShopTestCases"> (hide)</a> <!-- hide-methods passed suite-LetShopTestCases -->
+                      <a href="#" panel-name="suite-LetShopTestCases" class="show-methods passed suite-LetShopTestCases"> (show)</a> <!-- show-methods passed suite-LetShopTestCases -->
+                    </span>
+                    <div class="method-list-content passed suite-LetShopTestCases">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LetShopTestCases" title="org.LetsShop.test.SubmitOrderTest" class="method navigator-link" hash-for-method="OrderHistoryTest({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com})">OrderHistoryTest({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LetShopTestCases" title="org.LetsShop.test.SubmitOrderTest" class="method navigator-link" hash-for-method="OrderHistoryTest({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})">OrderHistoryTest({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LetShopTestCases" title="org.LetsShop.test.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})">submitOrder({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LetShopTestCases" title="org.LetsShop.test.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com})">submitOrder({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LetShopTestCases -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LetShopTestCases" class="panel LetShopTestCases">
+          <div class="suite-LetShopTestCases-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.LetsShop.test.ErrorValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginErrorValidation">
+                  </a> <!-- LoginErrorValidation -->
+                  <span class="method-name">LoginErrorValidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or* password]
+	at org.LetsShop.test.ErrorValidationTest.LoginErrorValidation(ErrorValidationTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LetShopTestCases-class-failed -->
+          <div class="suite-LetShopTestCases-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.LetsShop.test.ErrorValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginErrorValidation">
+                  </a> <!-- LoginErrorValidation -->
+                  <span class="method-name">LoginErrorValidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or* password]
+	at org.LetsShop.test.ErrorValidationTest.LoginErrorValidation(ErrorValidationTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LetShopTestCases-class-skipped -->
+          <div class="suite-LetShopTestCases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.LetsShop.test.SubmitOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderHistoryTest({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com})">
+                  </a> <!-- OrderHistoryTest({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com}) -->
+                  <span class="method-name">OrderHistoryTest</span>
+                  <span class="parameters">({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderHistoryTest({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})">
+                  </a> <!-- OrderHistoryTest({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com}) -->
+                  <span class="method-name">OrderHistoryTest</span>
+                  <span class="parameters">({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})">
+                  </a> <!-- submitOrder({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com})">
+                  </a> <!-- submitOrder({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LetShopTestCases-class-passed -->
+        </div> <!-- panel LetShopTestCases -->
+        <div panel-name="test-xml-LetShopTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\All Desktop folders\Selenium Revision\Shubham Selenium Codes\LetsShopFramework\TestRunner\ErrorHandler.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;LetShopTestCases&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ErrorValidationTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;ErrorHandling&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.LetsShop.test.ErrorValidationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ErrorValidationTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SubmitOrderTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.LetsShop.test.SubmitOrderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SubmitOrderTest --&gt;
+&lt;/suite&gt; &lt;!-- LetShopTestCases --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LetShopTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LetShopTestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ErrorValidationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SubmitOrderTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LetShopTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LetShopTestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">ErrorHandling</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginErrorValidation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Purchase</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">submitOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LetShopTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LetShopTestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LetShopTestCases');
+function tableData_LetShopTestCases() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'OrderHistoryTest')
+data.setCell(0, 2, 'org.LetsShop.test.SubmitOrderTest')
+data.setCell(0, 3, 3373);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'submitOrder')
+data.setCell(1, 2, 'org.LetsShop.test.SubmitOrderTest')
+data.setCell(1, 3, 3030);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'submitOrder')
+data.setCell(2, 2, 'org.LetsShop.test.SubmitOrderTest')
+data.setCell(2, 3, 2946);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginErrorValidation')
+data.setCell(3, 2, 'org.LetsShop.test.ErrorValidationTest')
+data.setCell(3, 3, 952);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'OrderHistoryTest')
+data.setCell(4, 2, 'org.LetsShop.test.SubmitOrderTest')
+data.setCell(4, 3, 785);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginErrorValidation')
+data.setCell(5, 2, 'org.LetsShop.test.ErrorValidationTest')
+data.setCell(5, 3, 461);
+window.suiteTableData['LetShopTestCases']= { tableData: data, tableDiv: 'times-div-LetShopTestCases'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-LetShopTestCases">
+              </div> <!-- times-div-LetShopTestCases -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LetShopTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LetShopTestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LetShopTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.LetsShop.test.ErrorValidationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">ProductErrorValidation</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LetShopTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.LetsShop.test.ErrorValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginErrorValidation</span>
+                <span class="method-start">6743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7210 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">7390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginErrorValidation</span>
+                <span class="method-start">11738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12693 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.LetsShop.test.SubmitOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">13086 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitOrder({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})</span>
+                <span class="method-start">16420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19371 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">19545 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitOrder({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com})</span>
+                <span class="method-start">23378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">26963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderHistoryTest({password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com})</span>
+                <span class="method-start">32322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">35778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderHistoryTest({password=Selenium@123, product=IPHONE 13 PRO, email=SC@gmail.com})</span>
+                <span class="method-start">39892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40678 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
